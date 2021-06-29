@@ -1,6 +1,7 @@
 body{
 	font-size: small;
 	font-family: Verdana, Helvetica, Arial, sans-serif; 
+	line-height: 1.6em; 
 }
 h1,h2{
 	color:  #007e7e;
@@ -10,4 +11,25 @@ h1{
 }
 h2{
 	font-size: 130%;
+}
+.guarantee{
+	line-height: 1.9em;
+	font-style: italic;
+	color: #444444;
+	font-family: Georgia, "Times New Roman", Times, sans-serif;
+	border-color: white;
+	border-style: dashed;
+	border-width: 1px;
+	border-radius: 2em;
+	border-top-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	background-color: #a7cece;
+	padding: 25px;
+	padding-left: 80px;
+	margin: 30px;
+	margin-right: 250px;
+	background-image: url(images/background.gif);
+	background-repeat: no-repeat;
+	background-position: top left;
+	
 }
