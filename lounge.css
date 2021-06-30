@@ -13,6 +13,12 @@ h1{
 h2{
 	font-size: 130%;
 }
+a:link{
+	color: #007e7e;
+}
+a:visited{
+	color: #333333;
+}
 #guarantee{
 	line-height: 1.9em;
 	font-style: italic;
@@ -47,6 +53,7 @@ h2{
 	margin-left: 20px;
 	background-image: url(images/cocktail.gif);
 	background-repeat: repeat-x;
+	float: right;
 }
 #elixirs h2{
 	color:black;
@@ -59,4 +66,20 @@ h2{
 	font-size:50%;
 	line-height: normal;
 	margin-top: 30px; 
+ }
+ .cd{
+ 	font-style: italic;
+ }
+ .artist{
+ 	font-weight: bold;
+ }
+ #elixirs a:link{
+ 	color: #007e7e;
+ }
+ #elixirs a:visited{
+ 	color:#333333;
+ }
+ #elixirs a:hover{
+ 	color: #0d5353;
+ 	background-color:#f88396;
  }
